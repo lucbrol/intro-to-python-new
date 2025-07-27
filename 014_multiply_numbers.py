@@ -16,6 +16,10 @@ print(multiply_numbers(2, 3))
 print("multiply_numbers(3, 5) is:")
 print(multiply_numbers(3, 5))
 
+print("multiply_numbers(4,6) returns:")
+print(multiply_numbers(4,6))
+print(multiply_numbers(400,1000))
+
 # @TASK: Run these in the shell using:
 
 #   python 014_multiply_numbers.py

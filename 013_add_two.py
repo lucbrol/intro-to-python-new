@@ -16,7 +16,14 @@ from lib.helpers import check_that_these_are_equal
 # Here's how: https://vimeo.com/956351893/f5a80a1c1b
 
 # YOUR FUNCTION GOES BELOW THIS LINE
+def add_two(num):
+    return num + 2
 
+add_two(10)
+
+print("add_two(10) returns:")
+print(add_two(10))
+    
 
 
 # YOUR FUNCTION GOES ABOVE THIS LINE

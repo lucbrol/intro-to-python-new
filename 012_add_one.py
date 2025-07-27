@@ -7,12 +7,14 @@ def add_one(num):
 
 # Here is how it used:
 
-add_one(6)
+add_one(8)
 
 # And let's see it printed out:
 
 print("add_one(6) returns:")
 print(add_one(6))
+print("add_one(8) returns:")
+print(add_one(8))
 
 # @TASK: Run this code in the shell:
 #
