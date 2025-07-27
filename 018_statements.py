@@ -45,7 +45,7 @@ print(f"Today's day is: {todays_day}")
 print("---")
 
 # @TASK: What will it print? Run this file and find out.
-#
+## the 20th
 # You'll see that the first `19` value is thrown away and
 # replaced with the second `20` value.
 

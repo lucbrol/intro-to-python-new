@@ -95,13 +95,15 @@ add_one(add_one(add_one(add_one(add_one(add_one(1))))))
 
 # @TASK: What do you think that evaluates to? And why? Give
 # it a go and find out.
+#7
 
 # @TASK: Play around with building complex expressions in
 # the space below.
 
 # EXPRESSIONS PLAYGROUND BEGINS
-
-
+add_one(5) # equates to 6
+6 + add_one(7) * 5 # equates to 46
+add_one(10)*4 /2 # returns 22.0 a float
 
 # EXPRESSIONS PLAYGROUND ENDS
 

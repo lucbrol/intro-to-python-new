@@ -10,6 +10,7 @@ print(f"b is {b}")
 
 # @TASK: What does that output? And why? Take a guess, then
 # run the code and see.
+#20 a which was equal to 10 is replaced by 6 which is 20
 
 # Was it what you expected?
 
