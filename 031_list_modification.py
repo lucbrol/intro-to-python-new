@@ -71,8 +71,8 @@ print("")
 print("Function: remove_item_from_list")
 
 def remove_item_from_list(the_list, item):
-  # ...
-  return the_list
+  the_list.remove(item)# .remove is an action, modifies list
+  return the_list # returns new list after action
 
 # If you have trouble here, make sure you're returning the
 # list after removing the item.
@@ -87,7 +87,7 @@ print("")
 print("Function: count_items_in_list")
 
 def count_items_in_list(the_list, item):
-  return # ...
+  return the_list.count(item) # Query method returns a number, does not modify list
 
 # Whereas here you'll need to return the result of the
 # function you call, not the list.
@@ -102,7 +102,7 @@ print("")
 print("Function: get_index_of_item")
 
 def get_index_of_item(the_list, item):
-  return # ...
+  return the_list.index(item) # .Index is a query method returns a value, does not change list
 
 check_that_these_are_equal(
   get_index_of_item(['a', 'b', 'c'], 'b'), 1)
@@ -115,8 +115,8 @@ print("")
 print("Function: reverse_list")
 
 def reverse_list(the_list):
-  # ...
-  return the_list
+  the_list.reverse() # reverse action modifies list, 
+  return the_list # returns new list
 
 check_that_these_are_equal(
   reverse_list(['a', 'b', 'c']), ['c', 'b', 'a'])
@@ -130,7 +130,7 @@ print("Function: list_length")
 
 # Note — it's the same as for strings!
 def list_length(the_list):
-  return # ...
+  return len(the_list) # use len! python does not have .count
 
 check_that_these_are_equal(
   list_length(['a', 'b', 'c']), 3)
