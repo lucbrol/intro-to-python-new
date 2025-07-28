@@ -161,7 +161,7 @@ print("Function: a_is_within_b")
 # May be a little tricky — search for
 # "python check if string contains substring"
 def a_is_within_b(a, b):
-  # return a ?? b
+  return a in b
   pass
 
 check_that_these_are_equal(
