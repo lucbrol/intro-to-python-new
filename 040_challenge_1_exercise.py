@@ -29,8 +29,16 @@ from lib.helpers import check_that_these_are_equal
 print("")
 print("Function: report_long_words")
 
-def report_long_words(words):
-  pass
+def report_long_words(words):  # function
+  long_words = []  # variable / accumulator
+
+  for word in words:  #loop through each word
+    if len(word) > 10 and "-" not in word: # if condition length of word more than 10 and operator - not in word
+      if len(word) > 15: # second/nested if word more than 15 characters
+        word = word[:15] + "..."
+      long_words.append(word)
+  
+  return "These words are quite long: " + ", ".join(long_words)
 
 check_that_these_are_equal(
   report_long_words([
