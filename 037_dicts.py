@@ -18,6 +18,7 @@
 my_dictionary = {
   "String": "A sequence of characters",
   "List": "A sequence of any item",
+  "Dictionary": "A collection of keys mapped to values"  # create new key"Dictionary" with a value
 }
 
 # Note that:
@@ -40,6 +41,7 @@ print("  " + my_dictionary["List"])
 # print out the value below.
 
 print("A Dictionary is:")
+print("" + my_dictionary["Dictionary"] )  # print key and value from the dictionary my_dictionary
 # ...
 
 # Once you're done, move on to 038_dict_operations.py
