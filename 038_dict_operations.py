@@ -46,9 +46,9 @@ print(letter_counts)
 # is in the dictionary, try uncommenting this code and see
 # what happens:
 
-# letter_counts = {}
-# for letter in text:
-#   letter_counts[letter] = letter_counts[letter] + 1
+#letter_counts = {}
+#for letter in text:
+ #letter_counts[letter] = letter_counts[letter] + 1
 
 # In the assignment above, our right hand expression tries
 # to access the value for a key that has not been added yet.
@@ -67,7 +67,16 @@ print("Function: count_words_by_length")
 # Since there are two words of length 3, etc.
 
 def count_words_by_length(words):
-  pass
+  word_lengths={}   # Create empty dictionary to store words lengths and their counts
+
+  for word in words:  # loop through each word in the list
+    length=len(word)  # Get length of current word
+    if length not in word_lengths:  # If this length hasn't been seen before
+      word_lengths[length]= 1 # initialise the count for this length
+    else:
+      word_lengths[length] +=1  # Increment the count for this length
+  return word_lengths # return the dictionary of word lengths and count
+
 
 check_that_these_are_equal(
   count_words_by_length(["hat", "cat", "I", "bird"]),
