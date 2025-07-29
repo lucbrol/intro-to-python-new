@@ -15,7 +15,7 @@ print("")
 print("Function: a_is_equal_to_b")
 
 def a_is_equal_to_b(a, b):
-  return a == b
+  return a == b  # a has to equal b
 
 check_that_these_are_equal(
   a_is_equal_to_b(1, 1),
@@ -39,8 +39,7 @@ print("Function: a_is_less_than_b")
 
 def a_is_less_than_b(a, b):
   # Uncomment this next line and replace ?? with the right operator
-  return a < b
-  
+  return a < b # "< " less than operator <= less than or equal to operator  
 
 check_that_these_are_equal(
   a_is_less_than_b(1, 2),
@@ -63,7 +62,7 @@ print("")
 print("Function: a_is_greater_than_b")
 
 def a_is_greater_than_b(a, b):
-  return a > b
+  return a > b # greater than operator ">=" greater than or equal to operator
   pass
 
 check_that_these_are_equal(
