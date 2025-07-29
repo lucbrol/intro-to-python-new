@@ -15,6 +15,8 @@ print("add_one(6) returns:")
 print(add_one(6))
 print("add_one(8) returns:")
 print(add_one(8))
+print("add_one(4) returns 5")
+print(add_one(4))
 
 # @TASK: Run this code in the shell:
 #
