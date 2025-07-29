@@ -91,7 +91,7 @@ add_one(4) * 3      # Evaluates to 15
 
 # To finish off, here's a real mind-bender:
 
-add_one(add_one(add_one(add_one(add_one(add_one(1))))))
+add_one(add_one(add_one(add_one(add_one(add_one(1)))))) # answer should be 7
 
 # @TASK: What do you think that evaluates to? And why? Give
 # it a go and find out.
@@ -104,6 +104,16 @@ add_one(add_one(add_one(add_one(add_one(add_one(1))))))
 add_one(5) # equates to 6
 6 + add_one(7) * 5 # equates to 46
 add_one(10)*4 /2 # returns 22.0 a float
+
+print("add_one(5) should return 6") # print function change input for num
+print(add_one(6))
+
+print(" 6 + add_one(7) should return 46") # print function and variable with addition of literal at beginning
+print(6 + add_one(7))
+
+print("add_one(10)*4 /2 should return 22.0")
+print(add_one(10)*4 /2)
+
 
 # EXPRESSIONS PLAYGROUND ENDS
 
