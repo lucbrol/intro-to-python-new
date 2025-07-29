@@ -22,7 +22,7 @@ print("")
 print("Function: get_first_item")
 
 def get_first_item(the_list):
- return the_list[0] # Return the first item of the list
+ return the_list[0] # Return the first item of the list, index "0"
   
 
 check_that_these_are_equal(
