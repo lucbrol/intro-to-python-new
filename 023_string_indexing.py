@@ -51,7 +51,7 @@ print("")
 print("Function: get_first_letter")
 
 def get_first_letter(the_str):
-  return the_str[0]# Return the first letter of the string
+  return the_str[0]# Return the first letter of the string index begins at "0"
   
 
 check_that_these_are_equal(
@@ -70,7 +70,7 @@ print("")
 print("Function: get_last_letter")
 
 def get_last_letter(the_str):
-  return the_str[-1]# Return the last letter of the string
+  return the_str[-1]# Return the last letter of the string "-1" returns last letter
   
 
 check_that_these_are_equal(
