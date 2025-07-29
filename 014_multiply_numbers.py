@@ -18,7 +18,9 @@ print(multiply_numbers(3, 5))
 
 print("multiply_numbers(4,6) returns:")
 print(multiply_numbers(4,6))
-print(multiply_numbers(400,1000))
+
+print("multiply_numbers (400,1000) returns:") # print string
+print(multiply_numbers(400,1000)) # call to function with parameters
 
 # @TASK: Run these in the shell using:
 
