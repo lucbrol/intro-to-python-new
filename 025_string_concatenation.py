@@ -37,6 +37,7 @@ print(f"Hello, {my_name}!")
 # and `}` to create space you can put a variable into. In
 # fact, you can put any expression in there:
 
+print(f"your name {my_name}")
 print(f"Your name is {len(my_name)} characters long")
 
 # If you're particularly attentive, you might be asking how
