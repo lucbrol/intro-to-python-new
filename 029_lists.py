@@ -25,8 +25,11 @@ my_friends = ["Victoria", "Mel", "Melanie", "Emma"]
 
 # @TASK Try making your own here:
 
-your_list = ["Fight club", "Sopranos", "Breaking Bad", "Sex and the city"]
+your_list = ["Fight club", "Sopranos", "Breaking Bad", "Sex and the city"] # string list
+my_numbers= [ 42, 13, 24, 65, 87, 78] # integer list
+
 print(your_list)
+print(my_numbers)
 
 # @TASK and print it out by running:
 
