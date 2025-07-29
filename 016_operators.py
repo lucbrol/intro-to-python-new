@@ -39,11 +39,11 @@ def add_one(num):
 
 # Addition
 added = 2 + 3
-print(f"2 + 3 = {added} (should be 5)")
+print(f"2 + 3 = {added} (should be 5)") # addition operator +
 
 # Multiplication
 multiplied = 2 * 3
-print(f"2 * 3 = {multiplied} (should be 6)")
+print(f"2 * 3 = {multiplied} (should be 6)") # multiplication * operator
 
 # @TASK: For each section below:
 #
@@ -55,12 +55,12 @@ print(f"2 * 3 = {multiplied} (should be 6)")
 # == Subtraction ==
 
 subtracted = 2 - 3
-print(f"2 - 3 = {subtracted} (should be -1)")
+print(f"2 - 3 = {subtracted} (should be -1)") # suntraction operator " -"
 
 # == Division ==
 
 divided = 2 / 3
-print(f"2 / 3 = {divided} (should be 0.6666666666666666)")
+print(f"2 / 3 = {divided} (should be 0.6666666666666666)") #division / operator produces a float
 
 # This kind of 'decimal point' number, 0.6666666666666666 is
 # called a float, by the way, meaning 'floating point'.
@@ -69,7 +69,7 @@ print(f"2 / 3 = {divided} (should be 0.6666666666666666)")
 # Sometimes known as "remainder if we divide 3 by 2"
 
 modulus = 3 % 2
-print(f"3 % 2 = {modulus} (should be 1)")
+print(f"3 % 2 = {modulus} (should be 1)") # division by modulus leaves remainder value
 
 # == Floor division ==
 # Sometimes known as "division without remainder"
@@ -88,7 +88,7 @@ print(f"2 ** 3 = {expr} (should be 8)")
 
 # OPERATOR PLAYGROUND STARTS
 true_divided = 6 / 3
-print(f"6/: 3 = {true_divided} (should by 2.0)")
+print(f"6/: 3 = {true_divided} (should by 2.0)") # true divided /: operator produces float
 
 
 # OPERATOR PLAYGROUND ENDS
