@@ -8,6 +8,10 @@ a = b
 print(f"a is {a}")
 print(f"b is {b}")
 
+b = b + b
+
+print(f" b is now {b}") # change valu of variable
+
 # @TASK: What does that output? And why? Take a guess, then
 # run the code and see.
 #20 a which was equal to 10 is replaced by 6 which is 20
