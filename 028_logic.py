@@ -45,7 +45,7 @@ def starts_with_x_or_y(the_str):
 print("")
 print("Function: a_or_b")
 
-def a_or_b(a, b):
+def a_or_b(a, b): # either can be true to produce true
   return a or b
 
 check_that_these_are_equal(a_or_b(True, True), True)
@@ -58,7 +58,7 @@ check_that_these_are_equal(a_or_b(False, False), False)
 print("")
 print("Function: a_and_b")
 
-def a_and_b(a, b):
+def a_and_b(a, b): # both have to be true for true
   return a and b
   pass
 
