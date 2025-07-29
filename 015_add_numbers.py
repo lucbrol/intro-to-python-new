@@ -11,8 +11,8 @@ from lib.helpers import check_that_these_are_equal
 # * Returns the result
 
 # YOUR FUNCTION GOES BELOW THIS LINE
-def add_numbers(num_a, num_b):
-    return num_a + num_b
+def add_numbers(num_a, num_b): # Function name add_nmbers with two parameters num_a, num_b
+    return num_a + num_b # return result with + operator
 
 
 # YOUR FUNCTION GOES ABOVE THIS LINE
