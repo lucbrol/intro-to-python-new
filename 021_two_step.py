@@ -5,9 +5,7 @@ from lib.helpers import check_that_these_are_equal
 # Here's a function:
 
 def add_one_and_divide_by_two_with_statements(num):
-  added = num + 1
-  halved = added / 2
-  return halved
+ return (num + 1) / 2 # bracket first part of expression
 
 print("add_one_and_divide_by_two_with_statements(5) is:")
 
