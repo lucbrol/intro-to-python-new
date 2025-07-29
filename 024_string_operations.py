@@ -39,10 +39,12 @@ print(f"The string is {length} characters long")
 # For this, you could use the `replace` function:
 
 old_string = "Hello, YOUR_NAME!"
-new_string = old_string.replace("YOUR_NAME", "Kay")
+new_string = old_string.replace("YOUR_NAME", "Kay") # 
+cool_string = new_string.replace("Hello", "Alright") # replace "Hello " initialise new variable with different value
 
 # Uncomment this next line to see the result
 print(new_string)
+print(cool_string)
 
 # You'll notice here that the function is coming in a
 # different place. Let's compare `len` and `replace`:
