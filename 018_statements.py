@@ -19,8 +19,13 @@ added = 2 + 3
 
 my_favourite_number = 99
 
-print(f"My favourite number is: {my_favourite_number}")
+print(f"My favourite number is: {my_favourite_number}") # f string formatted value for variable printed
 print("---")
+
+my_favourite_colour = "green"  # initiate variable with string/value
+
+print(f"My favourite colour is {my_favourite_colour}") # f string formatted string literal
+print("--")
 
 # Here's the state of the above program after all lines are
 # executed:
